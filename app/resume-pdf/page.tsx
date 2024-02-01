@@ -3,7 +3,7 @@ import { useState } from "react";
 
 
 
-const RESUME_PDF_URL = 'http://localhost:3000/Resume.pdf';
+const RESUME_PDF_URL = 'https://next-portfolio-r0dgffb6n-littlereed.vercel.app//Resume.pdf';
 
 const DownloadResumePDF = () => {
   const downloadFileAtURL = (url: any) => {
