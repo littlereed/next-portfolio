@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import { Document, Page } from 'react-pdf';
+
 
 
 const RESUME_PDF_URL = 'http://localhost:3000/Resume.pdf';
