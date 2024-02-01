@@ -16,7 +16,7 @@ const DownloadResumePDF = () => {
 
   return (
     <div 
-      style={{backgroundImage:'url(/mountains1.jpg'}}
+      style={{backgroundImage:'url(/Mountains.jpg'}}
       className="w-screen h-screen flex justify-center items-center"
     >
       <button 
