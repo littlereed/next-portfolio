@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -73,6 +73,13 @@ export default function Home() {
         >
           Contact me
         </Link>
+        <Link
+          href="/resume-pdf"
+          className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+        >
+          <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover:opacity-20" />
+            Resume PDF
+        </Link>
       </div>
 
       <div className="absolute bottom-0 right-0 z-[10]">
@@ -106,5 +113,5 @@ export default function Home() {
       />
     </main>
   );
-}
+};
   
