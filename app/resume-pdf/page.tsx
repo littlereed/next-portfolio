@@ -1,9 +1,6 @@
 'use client';
-import { useState } from "react";
 
-
-
-const RESUME_PDF_URL = 'https://next-portfolio-r0dgffb6n-littlereed.vercel.app//Resume.pdf';
+const RESUME_PDF_URL = 'https://next-portfolio-mu-rose-80.vercel.app/Resume.pdf';
 
 const DownloadResumePDF = () => {
   const downloadFileAtURL = (url: any) => {
@@ -19,7 +16,7 @@ const DownloadResumePDF = () => {
 
   return (
     <div 
-    style={{backgroundImage:'url(/mountains.jpg'}}
+      style={{backgroundImage:'url(/mountains1.jpg'}}
       className="w-screen h-screen flex justify-center items-center"
     >
       <button 
