@@ -45,7 +45,7 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Next js 13",
+    name: "Next js 14",
     Image: "/next.png",
     width: 80,
     height: 80,
@@ -77,20 +77,20 @@ export const SkillData = [
 ];
 
 export const Socials = [
-  
   {
-    name: "Github",
-    src: "/github.svg",
+    name: "Discord",
+    src: "/instagram.svg",
   },
   {
-    name: "Linkedin",
-    src:  "/linkedin.svg",
+    name: "Facebook",
+    src: "/facebook.svg",
   },
   {
     name: "Instagram",
     src: "/discord.svg",
   },
 ];
+
 export const Projects = [
   {
     title: "Airbnb NextJs Website",
@@ -112,7 +112,7 @@ export const Projects = [
   {
     title: "Next Admin Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/next-admin2.png",
+    src: "/next-admin3.png",
   },
 
 ];
